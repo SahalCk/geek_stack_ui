@@ -53,11 +53,11 @@ class GeekStackGroupWidget extends StatelessWidget {
           SizedBox(
             height: Adaptive.h(4.8),
             child: FlutterImageStack(
-                imageSource: ImageSource.network,
+                imageSource: ImageSource.asset,
                 imageList: const [
-                  'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Pierre-Person.jpg/800px-Pierre-Person.jpg',
-                  'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Photo_portrait_PP.jpg/640px-Photo_portrait_PP.jpg',
-                  'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/John_Krasinski_and_Josh_Wood_%28cropped%29.jpg/333px-John_Krasinski_and_Josh_Wood_%28cropped%29.jpg',
+                  'assets/groups/person1.jpg',
+                  'assets/groups/person2.jpg',
+                  'assets/groups/person3.jpg',
                 ],
                 showTotalCount: false,
                 totalCount: 3),
